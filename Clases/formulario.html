@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel=stylesheet href="style4.css">
+</head>
+<body>
+    <h2>Formulario de registro</h2>
+    <form action="link" method="post" target="_blank">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="firstname">Nombre:</label>
+            <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aquí">
+            <label for="lastname">Apellido:</label>
+            <input size="30" type="text" name="lastname" placeholder="Ingrese su Apellido aquí">
+            <br><br>
+            <label for="adress">Dirección:</label>
+            <input size="30" type="text" name="adress" placeholder="Ingrese su dirección aquí">
+            <label for="city">Ingrese su ciudad:</label>
+            <input size="50" type="text" placeholder="Ingrese su ciudad aquí">
+            <br><br>
+            <label for="post">Código Postal:</label>
+            <input size="20" type="number" placeholder="Ingrese su código postal aquí">
+            <label for="telephone">Telefono:</label>
+            <input size="30" type="number" placeholder="Ingrese su número telefónico aquí">
+            <br><br>
+            <label for="birthday">Fecha de Nacimiento:(dd/mm/aaaa)</label>
+            <input type="date" name="birthday">
+            <p> Género:
+                <input type="checkbox" name="gender" value="Hombre">Hombre
+                <input type="checkbox" name="gender" value="Mujer">Mujer
+                <input type="checkbox" name="gender" value="Otro">Otro
+            </p>
+        </fieldset>
+        <br>
+        <label for="coments">Comentarios:</label>
+        <textarea name="coments" rows="5" cols="20"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="reset" value="reset">Reset</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>

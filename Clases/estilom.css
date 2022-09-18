@@ -1,0 +1,55 @@
+*{
+    background-color: coral;
+}
+
+nav{
+    width: auto;
+    height: 10vw;
+    background-color:aqua;
+    border:2px black dotted;
+    padding:3px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    display: grid;
+    grid-row: auto;
+    justify-content: center;
+    
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: aqua;
+}
+
+header{
+    background-color: bisque;
+    border: 2px black double;
+    width: 50vw;
+    height: 50vw;
+}
+
+main{
+    background-color: darkcyan;
+    border: 2px black solid;
+    width: 50vw;
+    height: 50vw;
+}
+
+footer{
+    height:10vw;
+    width: auto;
+    background-color: palevioletred;
+    border: 2px black dotted;
+}
+
+.grid{
+    height: 50vw;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

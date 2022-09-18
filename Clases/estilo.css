@@ -1,0 +1,79 @@
+*{
+    background-color: violet;
+
+}
+.box1{
+    height: 20vw;
+    width: 20vw;
+    background-color: aqua;
+    border: 1vw black dotted;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: semi-condensed;
+    display: inline-block;
+}
+.base{
+    color: blueviolet;
+    font-family: monospace;
+    font-variant: initial;
+}
+@media only screen and (max-width: 700px){
+    .box1{
+        background-color: blueviolet;
+        }
+.box2{
+        background-color: whitesmoke;
+    }
+}
+
+
+.box2{
+    width: 30vw;
+    height: 30vw;
+    background-color: red;
+    display: block;
+}
+.box3{
+    width: 30vw;
+    height: 30vw;
+    background-color: blueviolet;
+    float: left;
+}
+
+.container{
+    width:100vw;
+    height: 100vw;
+    border: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content: stretch;
+}
+
+.cajab{
+    width: 20vw;
+    height: 20vw;
+    background-color: green;
+}
+
+.cajac{
+    width: 20vw;
+    height: 20vw;
+    background-color: blueviolet;
+}
+
+.cajad{
+    width: 20vw;
+    height: 20vw;
+    background-color: pink;
+}
+
+.container2{
+    width: 100vw;
+    height: 100vw;
+    background-color: aquamarine;
+    border: 2vw black double;
+    border: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

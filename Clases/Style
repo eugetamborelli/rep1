@@ -1,0 +1,14 @@
+
+*{
+margin: 20px;
+background-color: antiquewhite;
+
+}
+
+.new{
+    background-color: peru;
+}
+h3{color: limegreen;
+
+}
+.id{padding: 12px;}

@@ -1,0 +1,40 @@
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    border-top: 2px black;
+    border-left: 2px red;
+    border-right: 2px blue;
+    border-bottom: 2px green;
+    overflow: scroll;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    margin: 3px blue double;
+    content: normal;
+    border: 5px black dotted;
+    padding: 2px 5px 3px 0px;
+
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 2px red double;
+    border-radius: 2px;
+    border-style: outset;
+ 
+}
+
+*{
+    margin: 100px;
+    background-color: palevioletred;
+}
+.h1{
+    font: 200 beige;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,9 @@
+*{
+    background-color: antiquewhite;
+}
+
+.form{
+    width: 50vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
