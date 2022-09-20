@@ -3,7 +3,25 @@
 }
 
 .form{
-    width: 50vw;
-    height: 100vh;
-    font-family: 'Times New Roman', Times, serif;
+    width: 98vw;
+    height: 60vh;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
+
+nav{
+    width: 98vw;
+    height: 18vh;
+    border: 1px dotted black;
+    background-color: rgb(125, 90, 158);
+}
+
+footer{
+    width: 98vw;
+    height: 18vh;
+    border: 1px solid black;
+    background-color: rgb(39, 121, 121);
+}
+

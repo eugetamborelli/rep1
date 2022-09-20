@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel=stylesheet href="stylef.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -25,10 +28,12 @@
             <input size="40" type="text" name="city" placeholder="Ingrese su ciudad de origen aquí"><br>
             <label for="email">Correo electrónico:</label>
             <input size="40" type="email" name="email" placeholder="Ingrese su corrreo electrónico aquí"><br>
-            <label for="password">Contraseña:</label>
-            <input size="40" type="password" name="password" placeholder="Ingrese una contraseña aquí"><br>
-            <label for="check">Deseo sucribirme al newsletter</label>
-            <input type="checkbox" name="checkbox">
+            <label for="comments">Su mensaje:</label>
+            <textarea size="120" name="comments" type="text" row="5" cols="30"></textarea><br>
+            <label for="check">Deseo sucribirme al newsletter y recibir novedades y promociones en mi mail</label>
+            <input type="checkbox" name="checkbox"><br><br>
+            <input type="submit" value="Enviar">
+            <button type="Reset">Limpiar Datos</button>
         </fieldset>
     </div>
 
