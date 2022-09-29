@@ -1,0 +1,1 @@
+console.log("hola consola desde la pagina externa!")
